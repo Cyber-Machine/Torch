@@ -1,18 +1,5 @@
 <h3 align=center><img src='https://symbols.getvecta.com/stencil_92/77_pytorch-icon.1c19d88dac.svg' height=150px width=150px ></h3>
 
-<div>
-<details open="open">
-<summary>Table of Contents</summary>
-
-
-- [About](#About)    
-- [Torch](#torch)
-  - [Tensors](#tensors)
-  - [AutoGrad](#autograd---pytorch-automatic-diffrentiation-engine)    
-- [Suggestions](#suggestions)
-</details>
-
-</div>
 
 # About
 This repo is contains collection for internal concepts of Pytorch in short. Also some notes for CUDA programming as I learnt along the way. 
@@ -33,8 +20,8 @@ It is access through python API and is compiled through C++ which is optimized t
 ## AutoGrad - PyTorch Automatic Diffrentiation Engine 
 Diffrentation is needed in optimizing gradient based function.
 There are mainly two ways to compute diffrentation of a derivative.
--[Symbolic derivatives](https://www.sympy.org/en/index.html) - It is what used in mathematics. It requires full symbolic function. It is precise but rigid.
--Numerical derivatives - It uses the method of finite diffrences to compute differentation. It requires a black-box function. It is imprecise but rigid.
+- [Symbolic derivatives](https://www.sympy.org/en/index.html) - It is what used in mathematics. It requires full symbolic function. It is precise but rigid.
+- Numerical derivatives - It uses the method of finite diffrences to compute differentation. It requires a black-box function. It is imprecise but rigid.
 
 
 
