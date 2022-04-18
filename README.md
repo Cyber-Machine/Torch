@@ -5,11 +5,11 @@
 <summary>Table of Contents</summary>
 
 
--[About](#About)    
--[Torch](#torch)
-    -[Tensors](#tensors)
-    -[AutoGrad](#autograd---pytorch-automatic-diffrentiation-engine)    
--[Suggestions](#suggestions)
+- [About](#About)    
+- [Torch](#torch)
+  - [Tensors](#tensors)
+  - [AutoGrad](#autograd---pytorch-automatic-diffrentiation-engine)    
+- [Suggestions](#suggestions)
 </details>
 
 </div>
@@ -35,8 +35,6 @@ Diffrentation is needed in optimizing gradient based function.
 There are mainly two ways to compute diffrentation of a derivative.
 -[Symbolic derivatives](https://www.sympy.org/en/index.html) - It is what used in mathematics. It requires full symbolic function. It is precise but rigid.
 -Numerical derivatives - It uses the method of finite diffrences to compute differentation. It requires a black-box function. It is imprecise but rigid.
-
-
 
 
 
