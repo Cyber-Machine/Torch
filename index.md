@@ -6,7 +6,9 @@
 
 
 -[About](#About)    
--[Torch]()    
+-[Torch](#torch)
+    -[Tensors](#tensors)
+    -[AutoGrad](#autograd---pytorch-automatic-diffrentiation-engine)    
 -[Suggestions](#suggestions)
 </details>
 
@@ -29,6 +31,11 @@ very fast mathematical calculations and has over 300 operations.
 It is access through python API and is compiled through C++ which is optimized through CPU and GPU.
 
 ## AutoGrad - PyTorch Automatic Diffrentiation Engine 
+Diffrentation is needed in optimizing gradient based function.
+There are mainly two ways to compute diffrentation of a derivative.
+-[Symbolic derivatives](https://www.sympy.org/en/index.html) - It is what used in mathematics. It requires full symbolic function. It is precise but rigid.
+-Numerical derivatives - It uses the method of finite diffrences to compute differentation. It requires a black-box function. It is imprecise but rigid.
+
 
 
 
