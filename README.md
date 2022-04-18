@@ -1,17 +1,5 @@
 <h3 align=center><img src='https://symbols.getvecta.com/stencil_92/77_pytorch-icon.1c19d88dac.svg' height=150px width=150px ></h3>
 
-<div>
-<details open="open">
-<summary>Table of Contents</summary>
-
-
--[About](#About)    
--[Torch]()    
--[Suggestions](#suggestions)
-</details>
-
-</div>
-
 # About
 This repo is contains collection for internal concepts of Pytorch in short. Also some notes for CUDA programming as I learnt along the way. 
 
